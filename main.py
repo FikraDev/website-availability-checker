@@ -28,9 +28,3 @@ while True:
 
 
 
-# r = requests.get('https://xkcd.com/353/')
-
-
-
-
-
