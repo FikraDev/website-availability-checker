@@ -2,7 +2,7 @@ from datetime import datetime
 import requests, schedule, time
 
 def checkSite():
-    sites = ['https://www.ryancampbell.codes']
+    sites = ['https://www.homeandthingsja.com']
 
     for site in sites:
         r = requests.get(site)
