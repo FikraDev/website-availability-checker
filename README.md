@@ -9,14 +9,14 @@ This Python script checks the availability of a list of websites and writes to a
 ## Installation
 
 - Clone the repository or download the script file.
-- Install requests library using pip command: pip install requests
+- Install requests library using pip command: `pip install requests`
 
 ## Usage
 
-- Update the sites list in the checkSite() function with the websites you want to monitor.
+- Update the `sites` list in the `checkSite()` function with the websites you want to monitor.
 - Run the script using command line or any Python IDE.
-- The script will check the websites at the interval specified in the schedule.every() function. By default, the script checks every 5 seconds.
-- If a website is down, the script will print a message to the console and write an entry to the logfile.txt file with the date, time, and error code.
+- The script will check the websites at the interval specified in the `schedule.every()` function. By default, the script checks every 5 seconds.
+- If a website is down, the script will print a message to the console and write an entry to the `logfile.txt` file with the date, time, and error code.
 
 ## License
 
